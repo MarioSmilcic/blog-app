@@ -1,9 +1,14 @@
 import styles from './Main.module.css';
+import { Typography } from '@mui/material';
+import CardComponent from '../Card/Card';
 
 const Main = () => {
   return (
-    <div className={styles.main}>
-      <h1>I'm Main</h1>
+    <div>
+      <Typography variant="h2" color="textSecondary" gutterBottom={true}>
+        Our Pictures Catalog
+      </Typography>
+      <CardComponent />
     </div>
   );
 };
