@@ -5,10 +5,11 @@ const OurButton = () => {
   return (
     <div>
       <Button
-        color="primary"
+        style={{ backgroundColor: 'white' }}
+        // color="primary"
         variant="outlined"
         size="large"
-        className={styles.button}
+        // className={styles.button}
       >
         Discover
       </Button>
