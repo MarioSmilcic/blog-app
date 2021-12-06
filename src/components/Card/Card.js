@@ -1,30 +1,15 @@
 import styles from './Card.module.css';
-/* import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography'; */
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  CardActionArea,
-  Typography,
-} from '@mui/material';
 
-const CardComponent = ({ imgSrc, title, text }) => {
+import { Card } from 'react-bootstrap/';
+
+const CardComponent = (props) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia component="img" height="140" image={imgSrc} />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {title}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {text}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+    <Card style={{ width: '20rem' }} className="bg-light p-4 m-2">
+      <Card.Img variant="top" src={props.imgSrc} />
+      <Card.Body>
+        <Card.Title className="text-primary">{props.title}</Card.Title>
+        <Card.Text className="text-secondary">{props.text}</Card.Text>
+      </Card.Body>
     </Card>
   );
 };

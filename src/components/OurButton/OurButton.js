@@ -1,16 +1,10 @@
-import { Button } from '@mui/material';
 import styles from './Button.module.css';
+import { Button } from 'react-bootstrap';
 
 const OurButton = () => {
   return (
     <div>
-      <Button
-        style={{ backgroundColor: 'white' }}
-        // color="primary"
-        variant="outlined"
-        size="large"
-        // className={styles.button}
-      >
+      <Button variant="outline-light" size="lg">
         Discover
       </Button>
     </div>
