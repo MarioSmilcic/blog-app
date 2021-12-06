@@ -3,7 +3,19 @@
 }
  */
 
-/* .footer Link {
+.footerLink {
+  list-style: none;
+}
+
+.footerLink li {
+  padding-bottom: 1rem;
+}
+
+.footerLink a {
   text-decoration: none;
-  color: black;
-} */
+  color: gray;
+}
+
+.footerLink a:hover {
+  color: #007bff;
+}
