@@ -1,5 +1,5 @@
 import styles from './Footer.module.css';
-import { Row, Col, Form, Button, ListGroup, Container } from 'react-bootstrap';
+import { Row, Col, Form, Button, Container } from 'react-bootstrap';
 const Footer = () => {
   return (
     <Container fluid>
@@ -9,7 +9,7 @@ const Footer = () => {
             <h3 className="text-primary mb-3">
               Do you want to get our latest updates?
             </h3>
-            <p className="text-secondary mb-5 ">
+            <p className="text-secondary mb-5">
               Please subscribe our newsletter for upcoming new videos and latest
               information about our work. Thank you.
             </p>
