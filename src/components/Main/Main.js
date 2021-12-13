@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import styles from './Main.module.css';
 import CardComponent from '../Card/Card';
 import { Row, Container, Tabs, Tab } from 'react-bootstrap';
 
@@ -108,53 +107,3 @@ const Main = () => {
 };
 
 export default Main;
-
-/*  const DUMMY_POSTS = [
-    {
-      imgSrc: 'img1',
-      title: 'Leonardo',
-      text: 'ovo je Ninja kornjaca',
-    },
-    {
-      imgSrc: 'img2',
-      title: 'Rafaelo',
-      text: 'ovo je Ninja kornjaca',
-    },
-    {
-      imgSrc: 'img3',
-      title: 'Mikelandjelo',
-      text: 'ovo je Ninja kornjaca',
-    },
-    {
-      imgSrc: 'img3',
-      title: 'Donatelo',
-      text: 'ovo je Ninja kornjaca',
-    },
-    {
-      imgSrc: 'img3',
-      title: 'Splinter',
-      text: 'ovo je ucitelj Ninja kornjace',
-    },
-    {
-      imgSrc: 'img3',
-      title: 'Sjekac',
-      text: 'ovo je neprijatelj Ninja kornjace',
-    },
-    {
-      imgSrc: 'img3',
-      title: 'Krang',
-      text: 'ovo je neprijatelj kornjace',
-    },
-  ]; */
-
-/* <Row>
-        {DUMMY_POSTS.map((post) => {
-          return (
-            <CardComponent
-              imgSrc={post.imgSrc}
-              text={post.text}
-              title={post.title}
-            />
-          );
-        })}
-      </Row> */

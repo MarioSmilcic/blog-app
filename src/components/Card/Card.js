@@ -1,5 +1,3 @@
-import styles from './Card.module.css';
-
 import { Card } from 'react-bootstrap/';
 
 const CardComponent = (props) => {
