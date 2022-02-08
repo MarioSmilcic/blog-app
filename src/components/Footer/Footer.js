@@ -1,5 +1,5 @@
-import styles from './Footer.module.css';
-import { Row, Col, Form, Button, Container } from 'react-bootstrap';
+import styles from "./Footer.module.css";
+import { Row, Col, Form, Button, Container } from "react-bootstrap";
 const Footer = () => {
   return (
     <Container fluid>
@@ -16,8 +16,8 @@ const Footer = () => {
 
             <Form>
               <Form.Group>
-                <Row>
-                  <Col>
+                <Row className="gy-3">
+                  <Col xs={12} sm={6}>
                     <Form.Control
                       type="email"
                       placeholder="Your Email.."
