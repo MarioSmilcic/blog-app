@@ -1,7 +1,7 @@
 .hero {
-  background-image: url('../../assets/Blog.png');
+  background-image: url("../../assets/Blog.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 52%;
+  background-position: 0% 50%;
   min-height: 100vh;
 }

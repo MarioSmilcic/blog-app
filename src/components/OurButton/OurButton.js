@@ -1,9 +1,9 @@
-import { Button } from 'react-bootstrap';
+import { Button } from "react-bootstrap";
 
 const OurButton = () => {
   return (
     <div>
-      <Button variant="outline-light" size="lg">
+      <Button variant="outline-light" size="lg" href="#main">
         Discover
       </Button>
     </div>
